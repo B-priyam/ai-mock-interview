@@ -79,13 +79,13 @@ const StartInterview = ({
         <div className="flex  flex-wrap gap-5 justify-center mb-5">
           <Button onClick={prevButton} disabled={activeQuestionIndex === 0}>
             <ChevronLeft />
-            Previous Button
+            Previous Question
           </Button>
           <Button
             onClick={nextButton}
             disabled={activeQuestionIndex === mockQuestions?.length! - 1}
           >
-            Next Button
+            Next Question
             <ChevronRight />
           </Button>
           <Link href={`/dashboard/interview/${interviewData?.mockId}/feedback`}>
