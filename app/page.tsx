@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       {/* Steps Section */}
-      <p className="mt-10 text-xl">
+      <p className="mt-10 text-xl px-5 text-center">
         Get Your your AI interview Report using 3 simple steps 
       </p>
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-2 px-5 lg:px-36">
