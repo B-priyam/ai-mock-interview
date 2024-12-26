@@ -54,5 +54,8 @@
     "extends": [
       "next/core-web-vitals"
     ]
+  },
+  "resolutions": {
+    "conflicting-package": "desired-version"
   }
 }
