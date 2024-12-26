@@ -1,7 +1,6 @@
-import React from "react";
 import Header from "./_components/Header";
 
-const layout = ({ children }: React.ReactPortal) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Header />
@@ -10,4 +9,4 @@ const layout = ({ children }: React.ReactPortal) => {
   );
 };
 
-export default layout;
+export default Layout;
